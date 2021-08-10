@@ -2,7 +2,7 @@ package com.cg.aps.entities;
 
 import java.util.Date;
 
-public class GardsTranningEntity extends BaseEntity {
+public class GardsTranningEntity {
 
 	private long userId;
 	private String name;
@@ -10,17 +10,5 @@ public class GardsTranningEntity extends BaseEntity {
 	private String status;
 	private String timeing;
 	private Date date;
-	
-	@Override
-	public String getKey() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public String getValue() {
-		// TODO Auto-generated method stub
-		return null;
-	}
 
 }

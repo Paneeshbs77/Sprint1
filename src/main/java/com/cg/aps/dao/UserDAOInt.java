@@ -1,4 +1,4 @@
-package com.cg.aps.repository;
+package com.cg.aps.dao;
 
 import java.util.List;
 

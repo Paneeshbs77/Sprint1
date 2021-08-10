@@ -1,4 +1,4 @@
-package com.cg.aps.service;
+package com.cg.aps.dao;
 
 import java.util.List;
 
@@ -6,7 +6,7 @@ import com.cg.aps.entities.VisitorEntity;
 
 
 
-public interface VisitorServiceInt {
+public interface VisitorDAOInt {
 
 	public void add(VisitorEntity bean);
 	
@@ -21,6 +21,8 @@ public interface VisitorServiceInt {
 	public VisitorEntity findByPk(int id);
 	
 	public List<VisitorEntity> getAllVisitors();
+
+	
 	
 	
 }
